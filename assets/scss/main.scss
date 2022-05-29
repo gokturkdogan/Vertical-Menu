@@ -2,10 +2,12 @@
 @import 'layout/menu';
 @import 'components/icons';
 @import 'components/buttons';
-body{
+
+body {
     font-family: 'Ubuntu';
     background-color: $main;
-    .container{
+
+    .container {
         margin: 120px 900px;
     }
 }
