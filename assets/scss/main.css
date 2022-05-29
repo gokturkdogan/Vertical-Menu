@@ -1,6 +1,8 @@
 .box {
   border-radius: 17px;
-  width: 210px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   background-color: #FFFFFF;
 }
 .box__header {

@@ -1,6 +1,6 @@
 .box{
     border-radius: 17px;
-    width: 210px;
+    width: fit-content;
     background-color: $menu;
     &__header{
         display: flex;
