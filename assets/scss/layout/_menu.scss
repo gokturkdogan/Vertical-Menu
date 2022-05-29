@@ -1,0 +1,103 @@
+.box{
+    border-radius: 17px;
+    width: 210px;
+    background-color: $menu;
+    &__header{
+        display: flex;
+        justify-content: start;
+        padding-top:25px;
+        padding-left: 30px;
+        padding-bottom: 0px;
+    }
+    &__body{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        }
+        &__menu{
+            padding-top: 25px;
+            padding-left: 20px;
+            padding-right: 27px;
+            padding-bottom: 0px;
+            text-align: left;
+            list-style: none;
+            margin-bottom: 0px;
+        }
+        &__item{
+            margin: 13px 0px;
+            display: block;
+            border-radius: 10px;
+            padding-top:10px;
+            padding-bottom: 2px;
+            padding-left: 10px;
+            &:hover{
+                background-color: $menuhover;
+            }
+            &:hover i{
+                color: $iconhover;
+            }
+        }
+        &__link{
+            text-decoration: none;
+            display: flex;
+        }
+        &__text{
+            margin-left: 13px;
+            font-size: 0.7rem;
+            margin-top: 0px;
+            text-shadow: 0.3px 0.3px 0.3px black;
+        }
+        &__getStarted{
+            padding-bottom: 35px;
+            padding-top: 0px;
+            padding-left: 28px;
+            padding-right: 28px;
+            margin-top: 0px;
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 140px;
+                margin-left: 5px;
+
+            }
+            strong{
+                margin-bottom: 0px;
+                font-size: 0.65rem;
+            }
+            p{
+                margin-top: 3px;
+                font-size: 0.6rem;
+                color: $getstartedfont;
+            }
+            span{
+                font-size: 0.6rem;
+                color: $iconhover;
+            }
+        }
+        &__footer{
+            border-top: 1px solid #ebe7e7;
+            display: flex;
+        }
+        &__userImage{
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 15px;
+        }
+        &__userInfo{
+            padding-top: 25px;
+            display: flex;
+            flex-direction: column;
+            strong{
+                font-size: 0.7rem;
+                margin-bottom: 2px;
+            }
+            span{
+                font-size: 0.7rem;
+                color: $getstartedfont;
+            }
+        }
+
+        .-active{
+            background-color: $menuhover;
+        }
+    }

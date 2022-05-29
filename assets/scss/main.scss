@@ -1,0 +1,11 @@
+@import 'variables/colors';
+@import 'layout/menu';
+@import 'components/icons';
+@import 'components/buttons';
+body{
+    font-family: 'Ubuntu';
+    background-color: $main;
+    .container{
+        margin: 120px 900px;
+    }
+}
